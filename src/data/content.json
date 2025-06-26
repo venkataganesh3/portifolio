@@ -1,0 +1,260 @@
+{
+  "name": "Vasana Venkata Ganesh",
+  "role": "Full Stack Developer",
+  "contact": {
+    "email": "venkataganesh2811@gmail.com",
+    "phone": "+91 6300299445",
+    "linkedin": "https://www.linkedin.com/in/venkata-ganesh-318867287/",
+    "github": "https://github.com/venkataganesh3",
+    "leetcode": "https://leetcode.com/u/venkataganesh2003/"
+  },
+  "objective": "I am a dedicated B.Tech student with a strong foundation in computer science and engineering. I am proficient in various programming languages and technologies, having successfully completed several practical projects in MERN stack development. I aspire to contribute to meaningful projects and grow professionally.",
+  "skillsGrouped": [
+    {
+      "label": "HTML, CSS, JavaScript",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "level": 95
+    },
+    {
+      "label": "ReactJs, NodeJs, ExpressJs",
+      "skills": ["ReactJs", "NodeJs", "ExpressJs"],
+      "level": 90
+    },
+    {
+      "label": "MongoDB, MySQL",
+      "skills": ["MongoDB", "MySQL"],
+      "level": 85
+    },
+    {
+      "label": "Java, Python",
+      "skills": ["Java", "Python"],
+      "level": 88
+    },
+    {
+      "label": "C, C++",
+      "skills": ["C", "C++"],
+      "level": 80
+    }
+  ],
+  "education": [
+    {
+      "course": "B.Tech - Computer Science Engineering",
+      "institution": "Prasad V. Potluri Siddhartha Institute of Technology",
+      "duration": "Sep 2023 – Present",
+      "score": "CGPA: 9.12",
+      "side": "left"
+    },
+    {
+      "course": "Diploma - Computer Engineering (CME)",
+      "institution": "Sri Vasavi Institute of Engineering & Technology",
+      "duration": "June 2020 – June 2023",
+      "score": "Percentage: 96%",
+      "side": "right"
+    },
+    {
+      "course": "10 Class - Andhra Pradesh Board of Secondary Education",
+      "institution": "Sri Sai Baba High School",
+      "duration": "June 2019 – June 2020",
+      "score": "CGPA: 10.0/10.0",
+      "side": "left"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Clean Slate",
+      "techstak":"MERN",
+      "description": "A platform that connects customers with household service workers.",
+      "moredesc":[
+        "A comprehensive platform connecting homeowners with service providers.",
+        "Integrated user authentication",
+        "Built booking system",
+        "Service history tracking"
+      ],
+      "link": "https://github.com/venkataganesh3/cleanslate"
+    },
+    {
+      "title": "Smart Learning",
+      "techstak":"MERN",
+      "description": "E-learning portal featuring 10+ interactive courses.",
+      "moredesc":[
+        "An interactive e-learning platform with comprehensive course management.",
+        "Real-time quiz results",
+        " User progress tracking",
+        "Secure access control"
+      ],
+      "link": "https://github.com/venkataganesh3/Smart-Learning"
+    },
+    {
+      "title": "Credit Card Fraud Detection",
+      "techstak":"Python, Machine Learning",
+      "description": "A predictive model to identify and prevent fraudulent transactions.",
+      "moredesc":[
+        "Advanced ML solution to detect fraudulent credit card transactions.",
+        "Multiple ML models",
+        "High accuracy rates",
+        "Data visualization"
+      ],
+      "link": "https://github.com/venkataganesh3/Credit_card_fraud-detection"
+    }
+    ,
+    {
+      "title": "Disaster Preparedness",
+      "techstak":"Mobile App (Java)",
+      "description": "Emergency management system for disaster planning.",
+       "moredesc":[
+        "Mobile app that helps users prepare for and respond to disasters",
+        "Location-based alerts",
+        "Safe place recommendations",
+        "Emergency contacts"
+      ],
+      "link": "https://github.com/venkataganesh3/Disaster_Preparedness_Companion"
+    }
+  ],
+  "experience": [
+    {
+      "type": "Virtual Internship",
+      "company": "AICTE Edu Skills",
+      "techstack": "AWS",
+      "description": [
+        "Completed 100% of AWS cloud foundation modules and passed assessments with 90%+ score.",
+        "Gained practical experience in AWS tools like EC2, S3, and IAM by building demo applications.",
+        "Learned how to deploy scalable and secure apps on the cloud using real-world use cases."
+      ]
+    },
+    {
+      "type": "Offline Internship",
+      "company": "Arete IT Services Private. Ltd.",
+      "techstack": "HTML, CSS, JavaScript",
+      "description": [
+        "Built a family tree website for a client, increasing user engagement by 30% through improved design and navigation.",
+        "Helped develop a product page for an electronics store, reducing bounce rate by 20% with better layout and visuals.",
+        "Worked closely with clients to gather requirements and delivered changes within tight deadlines."
+      ]
+    }
+    
+  ],
+  "achievements": [
+    {
+      "title": "Academic Excellence",
+      "description": "1st Rank among 200+ students in Diploma Polytechnic Program"
+    },
+    {
+      "title": "Amazon Grid 6.0",
+      "description": "Participated in national-level technical event."
+    },
+    {
+      "title":"CodeClash 2025 – The Battle of Algorithms",
+      "description":"Participated in national-level technical event."
+    },
+    {
+      "title": "Algo Arena - ACM PVPSIT",
+      "description": "Participated in university coding contest."
+    },
+    {
+      "title": "LeetCode Problem Solver",
+      "description": "Solved 200+ problems on LeetCode platform"
+    }
+    ,
+    {
+      "title": "HackerRank Silver Badge",
+      "description": "Problem Solver Silver Badge on HackerRank"
+    }
+    ,
+    {
+      "title": "CodeChef Golden Badge",
+      "description": "Golden Badge – CodeChef Contest Contender"
+    } 
+    ,
+    {
+      "title": "CodeChef Silver Badge",
+      "description": "Problem Solver Silver Badge on CodeChef"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Java Programming",
+      "company": "NPTEL",
+      "link": "https://drive.google.com/file/d/1YgrNl361lzbk8RbbWaMKQP4Tt8VfcW8h/view?usp=drive_link"
+    },
+    {
+      "title": "DBMS",
+      "company": "NPTEL",
+      "link": "https://drive.google.com/file/d/1Yf_4yWWn91jbE1wQM-Eq8aQ_yQLlRfjt/view?usp=drive_link"
+    }
+    ,
+    {
+      "title": "Privacy & Security",
+      "company": "NPTEL",
+      "link": "https://drive.google.com/file/d/1q6DItvm-i5rTwnJbFfuFxWhZ-H4G_m8A/view?usp=drive_link"
+    }
+     ,
+    {
+      "title": "MERN",
+      "company": "MastersCoding",
+      "link": "https://drive.google.com/file/d/1LSsoFiP_5PB57Q0uQK2PdzIhuF2kDmiF/view?usp=drive_link"
+    }
+    ,
+    
+    {
+      "title": "Python",
+      "company": "Infosys Springboard",
+      "link": "https://drive.google.com/file/d/1YxB6OlRRt1q4UIDIT2t37augfnnJEC6Q/view?usp=drive_link"
+    },
+    {
+      "title": "AI Fundamentals",
+      "company": "Infosys Springboard",
+      "link": "https://drive.google.com/file/d/1YoHhAtwpvGEX5Ox_iwsu7W-jf4Iew_iF/view?usp=drive_link"
+    },
+    {
+      "title": "Machine Learning",
+      "company": "Infosys Springboard",
+      "link": "https://drive.google.com/file/d/1OkdgjVdO9sq8Z6Lil6XGv0gldzPJZ5en/view?usp=drive_link"
+    }
+    ,
+    
+    {
+      "title": "Block Chain",
+      "company": "Infosys Springboard",
+      "link": "https://drive.google.com/file/d/1vPyOs3kq6TyWojfwfFqCBzSVPgto6XGp/view?usp=drive_link"
+    }
+   ,
+    {
+      "title": "C++",
+      "company": "Spoken Tutorial",
+      "link": "https://drive.google.com/file/d/1Jf1z98zVkVfVlvie8SNenK7RoVh2OCEx/view?usp=drive_link"
+    },
+    {
+      "title": "Linux",
+      "company": "Spoken Tutorial",
+      "link": "https://drive.google.com/file/d/1Z1Ag0jsnx3enJjRAYGnqw7zBTr6cTkZ9/view?usp=drive_link"
+    },
+    {
+      "title": "HTML",
+      "company": "Spoken Tutorial",
+      "link": "https://drive.google.com/file/d/1NTNJArRqZKQ6xYiIwMetIXUCOIMcPstG/view?usp=drive_link"
+    },
+    
+    {
+      "title": "PHP & MYSQL",
+      "company": "Spoken Tutorial",
+      "link": "https://drive.google.com/file/d/133AU-IW704TZiDTZzWEWUossxYWqAKNg/view?usp=drive_link"
+    },
+    {
+      "title":"Cyber Security",
+      "company":"Cisco",
+      "link":"https://drive.google.com/file/d/15HgD45VWXw-RmV9EUIMLfAjEJU-Koocu/view?usp=drive_link"
+    },
+    {
+      "title":"Introduction to networks",
+      "company":"Cisco",
+      "link":"https://drive.google.com/file/d/1kq-Rw-SVAol0Zuz_rUqFgXc3cXnL_zgl/view?usp=drive_link"
+    }
+    
+  ],
+  "cgpa": 8.97,
+  "extracurriculars": [
+    "Participated in Amazon Grid 6.0",
+    "Leetcode and Codechef contests",
+    "CodingContest - Algo Arena ACM PVPSIT"
+  ]
+}

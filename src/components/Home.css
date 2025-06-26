@@ -1,0 +1,175 @@
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 9% 1rem 20%;
+  height:90vh;
+  background: linear-gradient(to right, #1e3a8a, #0d6efd, #0c8cc4);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.home-left {
+  max-width: 50%;
+}
+
+.home-name {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.home-role {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.home-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e7ff;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.primary-btn,
+.outline-btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: #fff;
+  color: #1e3a8a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.primary-btn:hover {
+  background: #e5e7eb;
+}
+
+.outline-btn {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.outline-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.home-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.home-icons a {
+  font-size: 1.4rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.6rem;
+  border-radius: 50%;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.home-icons a:hover {
+  background: #fff;
+  color: #1e3a8a;
+  transform: translateY(-3px);
+}
+
+/* Right Image Styling */
+.home-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.profile-img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 6px solid #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+.home-left {
+  padding-top: 50px;
+}
+.home-section {
+  height: auto;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    padding: 1rem 2rem;
+    height: auto; /* let height grow with content */
+    text-align: center;
+  }
+
+  .home-left {
+    max-width: 100%;
+    padding-top: 30px;
+  }
+
+  .home-name {
+    font-size: 2.4rem;
+  }
+
+  .home-role {
+    font-size: 1.2rem;
+  }
+
+  .home-desc {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .primary-btn,
+  .outline-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .home-icons {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .home-icons a {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .home-right {
+    margin-top: 2rem;
+    flex: none;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-width: 4px;
+  }
+}

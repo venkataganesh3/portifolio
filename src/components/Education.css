@@ -1,0 +1,157 @@
+/* Container */
+.education-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Title */
+.about-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #111;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background-color: #0b3d73;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.about-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, #0755a8, #0f3f73);
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* Timeline items */
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+/* Dot aligned with the top edge of the card */
+.timeline-dot {
+  position: absolute;
+  top: 40px; /* Adjust to match the top padding of .edu-card */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #0f3f73;
+  border: 4px solid white;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+/* Folded note card */
+.edu-card {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 10px 0;
+  display: inline-block;
+  max-width: 400px;
+}
+
+/* Folded corner effect */
+.edu-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 30px solid #0f3f73;
+  border-left: 30px solid transparent;
+  border-radius: 0 10px 0 0;
+}
+
+/* Text styling inside the card */
+.edu-duration {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edu-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1a1a4f;
+  margin-bottom: 5px;
+}
+
+.edu-course {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.score {
+  margin-top: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+    text-align: left;
+  }
+
+  .timeline-dot {
+    left: 20px;
+  }
+}

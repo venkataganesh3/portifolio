@@ -1,0 +1,91 @@
+.achievements-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f9f9fb;
+}
+
+.about-heading {
+  margin-bottom: 2rem;
+}
+
+.about-sub {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.about-main {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a5e;
+  position: relative;
+}
+
+.achievement-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.achievement-card {
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 330px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+}
+
+.achievement-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0056d2, #00aaff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: white;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.achievement-text h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222266;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.achievement-text p {
+  font-size: 0.95rem;
+  color: #444;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.show-more-btn {
+  margin-top: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.show-more-btn:hover {
+  background-color: #0a58ca;
+}

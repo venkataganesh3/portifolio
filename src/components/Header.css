@@ -1,0 +1,158 @@
+.portfolio-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #1e3a8a, #0d6efd, #0c8cc4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  width: 100%; 
+  top: 0;
+  z-index: 999;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.portfolio-header.scrolled {
+  background:  #1e1e92 !important;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.logo .dot {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.theme-toggle {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.login-btn {
+  padding: 0.4rem 1rem;
+  background: white;
+  color: #1e3a8a;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #e5e7eb;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.login-content {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 320px;
+  width: 90%;
+}
+
+.login-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.login-content button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #1e3a8a;
+  color: white;
+  border-radius: 5px;
+}
+
+.login-content button:hover {
+  background-color: #0c8cc4;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background: #1e3a8a;
+    width: 250px;
+    padding: 1rem;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links a {
+    padding: 0.5rem 0;
+  }
+
+  .login-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
